@@ -25,7 +25,7 @@ document.getElementById("button3").addEventListener("click", function () {
 });
 document.getElementById("button4").addEventListener("click", function () {
     document.getElementById("currentSection").innerHTML = "Future Versions";
-    document.getElementById("paragraph").innerHTML = "try the final version for yourself";
+    document.getElementById("paragraph").innerHTML = "I have not only used this program for wordle but I've also found it usefull for conversations and other word based puzzels, so in the future I want to make a wordlen't that can work for 4 letter words and 6 letter words and so on. Try the final version for yourself!";
     document.getElementById("fig1").src = "";
     goHere = "https://scratch.mit.edu/projects/965784197";
     document.getElementById("link").href = goHere;
