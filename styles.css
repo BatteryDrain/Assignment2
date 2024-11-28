@@ -5,6 +5,7 @@ body {
     color:red; */
     background-color: grey;
     color: white;
+    display: flex;
 }
 button{
     background-color: green;
@@ -15,10 +16,11 @@ href{
     text-decoration: underline;
 }
 #fig1{
-    float:right;
-
+    float:left;
+    max-width: 300px;
+    padding-right: 10px;
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 400px){
 nav{
     display: flex;
     align-items: center;
@@ -29,10 +31,6 @@ nav{
 }
 body{
     margin-right: 0;
-}
-#fig1{
-    float:right;
-    width: ;
 }
 }
 @media screen and (min-width: 600px){
