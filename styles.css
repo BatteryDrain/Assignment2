@@ -14,14 +14,25 @@ href{
     color:blue;
     text-decoration: underline;
 }
-@media screen and (max-width: 600px){
+#fig1{
+    float:right;
+
+}
+@media screen and (max-width: 320px){
 nav{
-    background-color: red;
     display: flex;
-    align-items: right;
-    justify-content: right;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     gap: 10px;
     padding: 10px;
+}
+body{
+    margin-right: 0;
+}
+#fig1{
+    float:right;
+    width: ;
 }
 }
 @media screen and (min-width: 600px){
